@@ -1,0 +1,151 @@
+body {
+	background: #b88b4a;
+	background-image: url(/assets/img/background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #242331;
+}
+footer, header {
+	text-align: center;
+}
+
+footer {
+	text-shadow: 3px 1px 8px #000;
+	color: #FFF;
+	padding: 10px;
+}
+
+header h1 {
+	color: #FFFFFF;
+	text-shadow: 3px 1px 8px #000;
+	padding: 20px;
+}
+
+.bk-content .container {
+	padding: 20px;
+	border-radius: 5px;
+	height: 75vh;
+	background: #FFFFFF;
+	box-shadow: 2px 2px 9px -4px #000;
+	overflow-y: scroll;
+}
+
+.bk-text-center {
+	text-align: center;
+}
+
+.bk-btn-big a {
+	text-decoration: none;
+}
+
+.bk-btn-big a .btn-content img{
+	width: 80%;
+	padding: 20px;
+	padding-bottom: 10px;
+}
+
+.bk-btn-big a .btn-content {
+	background: #b88b4a;
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 700;
+	border-radius: 5px;
+	box-shadow: 2px 2px 9px -4px #000;
+}
+
+.bk-btn-big a:hover .btn-content {
+	background: #a27035;
+	transition: 0.5s ease;
+}
+
+.bk-btn-big {
+	text-align: center;
+}
+
+.col-1-5 {
+    flex: 0 0 12.3%;
+    max-width: 12.3%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bk-atom {
+	font-size: 40px;
+	position: relative;
+	margin-left: 29px;
+}
+
+.bk-atom sup {
+	left: -30px;
+	position: absolute;
+	top: 11px;
+	font-size: 22px;
+}
+
+.bk-atom sub {
+	position: absolute;
+	font-size: 22px;
+	bottom: 10px;
+	left: -30px;
+}
+
+.bk-menu-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.bk-menu-list li {
+
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.bk-menu-list a {
+	background: #b88b4a;
+	box-shadow: 2px 2px 9px -4px #000;
+	padding: 10px;
+	display: block;
+	border-radius: 5px;
+	color: #FFFFFF;
+	text-decoration: none;
+	width: 100%;
+}
+
+.bk-menu-list img {
+	width: 30px;
+	margin-right: 10px;
+}
+
+.bk-menu-list a:hover {
+	background: #a27035;
+}
+
+.bk-judulpage {
+	background-color: #b88b4a;
+	box-shadow: 2px 2px 9px -4px #000;
+	border-radius: 5px;
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+footer a {
+	color: #FFFFFF;
+	text-decoration: none;
+	background: #b88b4a;
+	padding: 2px 10px;
+	border-radius: 5px;
+	text-shadow: none;
+	box-shadow: 2px 2px 9px -4px #000;
+}
+
+footer a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
